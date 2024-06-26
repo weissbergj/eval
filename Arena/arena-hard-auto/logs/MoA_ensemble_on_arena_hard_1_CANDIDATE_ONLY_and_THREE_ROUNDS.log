@@ -1,0 +1,6 @@
+nohup: ignoring input
+{'name': 'config of answer generation for arena-hard-v0.1', 'bench_name': 'arena-hard-v0.1', 'temperature': 0.0, 'max_tokens': 4096, 'num_choices': 1, 'model_list': ['MoA_Ensemble_Three_Rounds']}
+Output to data/arena-hard-v0.1/model_answer/MoA_Ensemble_Three_Rounds.jsonl
+4 number of existing answers
+  0%|          | 0/496 [00:00<?, ?it/s]Round 1/3 to collecting reference responses.
+Round 2/3 to collecting reference responses.

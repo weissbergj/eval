@@ -1,0 +1,17 @@
+nohup: ignoring input
+/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/torch/cuda/__init__.py:619: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+No CUDA runtime is found, using CUDA_HOME='/home/easybuild/software/CUDA/12.1.1'
+Generation Command:  python gen_answer.py
+Generating candidates...
+{'name': 'config of answer generation for arena-hard-v0.1', 'bench_name': 'arena-hard-v0.1', 'temperature': 0.0, 'max_tokens': 4096, 'num_choices': 10, 'model_list': ['Qwen/Qwen2-72B-Instruct', 'microsoft/WizardLM-2-8x22B', 'mistralai/Mixtral-8x22B-Instruct-v0.1', 'meta-llama/Llama-3-70b-chat-hf', 'databricks/dbrx-instruct']}
+Output to data/arena-hard-v0.1/model_answer/Qwen/Qwen2-72B-Instruct.jsonl
+Generating judgements...
+Namespace(setting_file='config/judge_config.yaml', endpoint_file='config/api_config.yaml')
+judge model: gpt-4-1106-preview, baseline: True, baseline model: gpt-4-0314, reference: False, reference models: None, temperature: 0, max tokens: 4096, pairwise: True
+500 number of existing judgments
+Showing results...
+------------------------------------------------
+Arena-Hard-Auto Results:
+
+------------------------------------------------

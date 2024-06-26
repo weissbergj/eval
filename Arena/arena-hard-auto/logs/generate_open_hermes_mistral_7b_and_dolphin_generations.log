@@ -1,0 +1,375 @@
+nohup: ignoring input
+{'name': 'config of answer generation for arena-hard-v0.1', 'bench_name': 'arena-hard-v0.1', 'temperature': 0.0, 'max_tokens': 4096, 'num_choices': 10, 'model_list': ['teknium/OpenHermes-2.5-Mistral-7B', 'mistralai/Mistral-7B-Instruct-v0.2', 'cognitivecomputations/dolphin-2.2.1-mistral-7b']}
+Output to data/arena-hard-v0.1/model_answer/OpenHermes-2.5-Mistral-7B.jsonl
+Max Tokens: 4096
+/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/accelerate/utils/modeling.py:1384: UserWarning: Current model requires 436210944 bytes of buffer for offloaded layers, which seems does not fit any GPU's remaining memory. If you are experiencing a OOM later, please consider using offload_buffers=True.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.02s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  3.77s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:08<00:00,  4.11s/it]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+  0%|          | 0/500 [00:00<?, ?it/s] 16%|█▋        | 82/500 [00:00<00:00, 815.62it/s] 33%|███▎      | 164/500 [00:00<00:00, 597.83it/s]Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+ 37%|███▋      | 185/500 [00:06<00:11, 27.31it/s] 
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:32000 for open-end generation.
+Traceback (most recent call last):
+  File "/home/jon/PretrainingObjectives/pretraining/ensembling/arena-hard-auto/gen_answer.py", line 325, in <module>
+    future.result()
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/jon/PretrainingObjectives/pretraining/ensembling/arena-hard-auto/gen_answer.py", line 188, in get_answer
+    output = chat_completion_huggingface(messages=conv,
+  File "/home/jon/PretrainingObjectives/pretraining/ensembling/arena-hard-auto/utils.py", line 337, in chat_completion_huggingface
+    outputs = pipeline(
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 263, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1243, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1250, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1150, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 350, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/transformers/generation/utils.py", line 1758, in generate
+    result = self._sample(
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/transformers/generation/utils.py", line 2397, in _sample
+    outputs = self(
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/transformers/models/mistral/modeling_mistral.py", line 1152, in forward
+    logits = self.lm_head(hidden_states)
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/accelerate/hooks.py", line 161, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/accelerate/hooks.py", line 347, in pre_forward
+    set_module_tensor_to_device(
+  File "/env/lib/conda/ensembling_v1.1/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 400, in set_module_tensor_to_device
+    new_value = value.to(device)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 252.00 MiB. GPU 
