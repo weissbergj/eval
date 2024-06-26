@@ -1,0 +1,54 @@
+# name: str
+#     model_name: str
+#     endpoints: default to null
+#         - api_base: str
+#           api_key: str
+#           api_version: str optional (only for azure)
+#     api_type: str
+#     tokenizer: str optional (to optimize token limits)
+#     parallel: int
+
+gpt-3.5-turbo-0125:
+    model_name: gpt-3.5-turbo-0125
+    endpoints: null
+    api_type: openai
+    parallel: 8
+
+gpt-4-0314:
+    model_name: gpt-4-0314
+    endpoints: null
+    api_type: openai
+    parallel: 8
+
+gpt-4-1106-preview:
+    model_name: gpt-4-1106-preview
+    endpoints: null
+    api_type: openai
+    parallel: 8
+
+# Qwen1.5-72B-Chat:
+#   prompt_template: "<|im_start|>system
+# You are a helpful assistant.<|im_end|>
+# <|im_start|>user
+# {instruction}<|im_end|>"
+#   fn_completions: "openai_completions"
+#   completions_kwargs:
+#     model_name: "Qwen/Qwen1.5-72B-Chat"
+#     requires_chatml: True
+#     temperature: 0.7
+#     num_procs: 8
+#     max_tokens: 3500
+#     top_p: 0.8
+#     price_per_token: 9e-7
+#     client_kwargs:
+#       base_url: "https://api.together.xyz/v1"
+#   pretty_name: "Qwen1.5 72B Chat"
+#   link: "https://huggingface.co/Qwen/Qwen1.5-72B-Chat"
+
+Qwen1.5-72B-Chat:
+model_name: Qwen/Qwen1.5-72B-Chat
+endpoints:
+    api_base: https://api.together.xyz/v1/chat/completions
+    api_key: 4c67def48706342b771bd0b46d2513eb9d71bf1341d9c66feea477c9edf8fd86
+api_type: openai
+parallel: 8
